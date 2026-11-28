@@ -179,3 +179,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# PyPdf: arquivos privados e temporários; nunca versionar
+/arquivos_temporarios/
+/arquivos_convertidos/
